@@ -59,3 +59,6 @@ B001,not_a_number,"Great product!"
     with pytest.raises(ValueError, match="Column review_rating contains non-numeric values"):
         validate_schema(df, expected_schema)
 '''
+
+def test_dummy():
+    assert True
