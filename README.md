@@ -1,4 +1,3 @@
-```markdown
 #  Product Review ETL + Enrichment Pipeline
 
 A modular, production-ready pipeline that extracts, validates, enriches, and transforms product reviews for downstream analytics and sentiment modeling. Built for recruiter visibility, business relevance, and real-world scalability.
@@ -37,7 +36,6 @@ src/
 
 ##  How to Run (CLI)
 
-```bash
 # Step 1: Extract
 python src/extract.py --input data/raw/ProductReviews.csv --output data/processed/raw_copy.csv
 
